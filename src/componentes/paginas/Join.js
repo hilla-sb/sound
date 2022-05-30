@@ -24,8 +24,7 @@ export default function Join (){
                 </>
                 <>
                     <br/>
-                    <br/><Button style={{ color: "white", backgroundColor: "#4853ab", width: "20rem", fontFamily: "Poppins", fontWeight: "400", fontWeight: "400", fontSize: "0.8rem", textTransform: "capitalize"
-                }}>Join Now</Button>
+                    <br/><Button style={{ color: "white", backgroundColor: "#4853ab", width: "20rem", fontFamily: "Poppins", fontWeight: "400", fontWeight: "400", fontSize: "0.8rem", textTransform: "capitalize"}}>Join Now</Button>
                 </>
             </Box>
 

@@ -4,7 +4,7 @@ import girl from './imagenes/landing-page-girl.png'
 const Home = () => {
   
 return(
-    <div id = 'Home-P' >
+    <div id = 'Home-P'style= {{paddingTop:"10%",paddingBottom:"10%"}} >
   
      <div className = "circle1"></div>
      <div className ="circle2"></div>

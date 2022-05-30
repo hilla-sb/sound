@@ -42,9 +42,9 @@ color:white;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(100px, 100px);
-  width: 500px;
-  height: 500px;
+  transform: translate(50px, 400px);
+  width: 400px;
+  height: 400px;
   z-index:-1;
 
 }
@@ -53,9 +53,9 @@ color:white;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(556px, 400px);
-  width: 500px;
-  height: 500px;
+  transform: translate(400px, 100px);
+  width: 400px;
+  height: 400px;
   z-index:-1;
 
 }
@@ -65,10 +65,33 @@ color:white;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(556px, 400px);
+  transform: translate(1056px, 500px);
+  width: 450px;
+  height: 450px;
+  z-index:-1;
+
+}
+.circle4 {
+  background:#bc3a801a;
+  border-radius: 50%;
+  position: absolute;
+  top :0;
+  transform: translate(0px, 2100px);
   width: 500px;
   height: 500px;
-  z-index:-1;
+
+
+}
+.circle5 {
+  background:#3457b21a;
+  border-radius: 50%;
+  position: absolute;
+  top :0;
+  transform: translate(100px, 1700px);
+  width: 500px;
+  height: 500px;
+  
+ 
 
 }
 .navbar {

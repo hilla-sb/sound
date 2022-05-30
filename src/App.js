@@ -1,12 +1,12 @@
-//import logo from './logo.svg';
-//import { hover } from '@testing-library/user-event/dist/hover';
-//import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import './App.css';
-import Navbar from './componentes/Navbar.js'
-import Discover from './componentes/paginas/Discover.js'
-import Home from './componentes/Home.js'
 
-//import Home from './componentes/paginas/Home' 
+import './App.css';
+import Navbar from './componentes/paginas/Navbar.js'
+import Discover from './componentes/paginas/Discover.js'
+import Home from './componentes/paginas/Home.js'
+import Footer from './componentes/paginas/Footer.js'
+import Join from './componentes/paginas/Join.js'
+
+
 function App (){
 
     return(
@@ -15,10 +15,8 @@ function App (){
           <Navbar/>
           <Home/>
           <Discover/>
-          
-         
-         
-          
+          <Footer/>
+          <Join/>
     
         </div>
     );
@@ -28,28 +26,3 @@ function App (){
     
 
 
-/*
-
-<Router>  </Router>*/
-/*function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;*/

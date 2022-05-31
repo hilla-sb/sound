@@ -6,7 +6,7 @@ import Tw from '../imagenes/twitter.svg';
 
 export default function Footer (){
     return(
-        <TableFooter style ={{background:"#202027",display:"flex",justifycontent :"SpaceAround"}}>
+        <TableFooter style ={{background:"#202027",display:"flex",justifycontent :"SpaceAround", marginTop:"100px"}}>
             <Box style={{display:"flex",gap:"3rem"}}>
                 <Button style ={{color:"white",backgroundColor:"transparent",fontWeeigth:"400",fontSize: "1.1rem",textTransform:"capitalize"}}>About Us</Button>
                 <Button style ={{color:"white",backgroundColor:"transparent",fontWeeigth:"400",fontSize: "1.1rem",textTransform:"capitalize"}}>Contact</Button>

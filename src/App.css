@@ -76,22 +76,19 @@ color:white;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(0px, 2100px);
-  width: 500px;
-  height: 500px;
-
-
+  transform: translate(-50px, 575%);
+  width: 350px;
+  height: 350px;
 }
 .circle5 {
   background:#3457b21a;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(100px, 1700px);
-  width: 500px;
-  height: 500px;
-  
- 
+  margin-left: -100px; 
+  transform: translate(420px, 550%);
+  width: 320px;
+  height: 320px;
 
 }
 .navbar {

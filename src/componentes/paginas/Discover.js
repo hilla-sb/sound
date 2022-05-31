@@ -8,7 +8,7 @@ export default function Discover() {
     return (
         
            
-            <section className="Discover-P" style={{ backgroundColor: "#302e33a", display: "flex", justifyContent: "center", gap: "5%", paddingTop: "10%", paddingBottom: "10%" }}>
+            <section id='Discover-P' className="Discover-P" style={{ backgroundColor: "#302e33a", display: "flex", justifyContent: "center", gap: "5%", paddingTop: "10%", paddingBottom: "10%" }}>
 
 
                 <Box style={{ flexDirection: "column" }}>

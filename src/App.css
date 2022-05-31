@@ -76,7 +76,7 @@ color:white;
   border-radius: 50%;
   position: absolute;
   top :0;
-  transform: translate(-50px, 575%);
+  transform: translate(-30px, 645%);
   width: 350px;
   height: 350px;
 }
@@ -86,7 +86,7 @@ color:white;
   position: absolute;
   top :0;
   margin-left: -100px; 
-  transform: translate(420px, 550%);
+  transform: translate(490px, 640%);
   width: 320px;
   height: 320px;
 

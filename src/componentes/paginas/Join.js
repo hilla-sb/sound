@@ -9,7 +9,8 @@ export default function Join (){
             <div className="circle4"></div>
             <div className="circle5"></div>
             
-            <Box style={{ display: "flex", gap: "20px" }}>
+            <Box style={{display:"flex",margin:"10% 10% 0 10%" }}>
+            <Box style={{ display: "flex", gap: "20px" , marginTop: "15rem"}}>
                 <Typography variant="h1" paragraph color="#FFFFFD" style={{ fontFamily: "Poppins", fontWeight: "600", marginRight: "8rem" }}>Join the<span style={{ color: "#d3007b" }}>fun.</span></Typography>
             </Box>
             <Box style={{ backgroundColor: "#202027", padding: "3rem", borderRadius: "5%", paddingLeft: "5rem",marginTop:"7rem" }}>
@@ -32,7 +33,8 @@ export default function Join (){
                     <br/>
                     <Button style={{ color: "white", backgroundColor: "#4853ab", width: "20rem", fontFamily: "Poppins", fontWeight: "400", fontSize: "0.8rem", textTransform: "capitalize"}}>Join Now</Button>
                 </>
-            </Box>
+                </Box>
+              </Box>
             </>
         </section>
     )
